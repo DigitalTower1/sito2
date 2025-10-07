@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-labelledby="title desc">
+  <title id="title">Grafico di crescita SEO</title>
+  <desc id="desc">Grafico ascendente con indicatori arancioni e teal che rappresentano crescita organica.</desc>
+  <defs>
+    <linearGradient id="rise" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B35" />
+      <stop offset="100%" stop-color="#00ADB5" />
+    </linearGradient>
+    <linearGradient id="grid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.18)" />
+      <stop offset="100%" stop-color="rgba(0,173,181,0.05)" />
+    </linearGradient>
+  </defs>
+  <rect width="420" height="320" fill="#101018" rx="24" />
+  <rect x="24" y="28" width="372" height="264" rx="20" fill="#151522" stroke="rgba(255,255,255,0.06)" stroke-width="2" />
+  <path d="M64 256V96" stroke="url(#grid)" stroke-width="2" stroke-dasharray="4 12" />
+  <path d="M124 256V76" stroke="url(#grid)" stroke-width="2" stroke-dasharray="4 12" />
+  <path d="M184 256V66" stroke="url(#grid)" stroke-width="2" stroke-dasharray="4 12" />
+  <path d="M244 256V84" stroke="url(#grid)" stroke-width="2" stroke-dasharray="4 12" />
+  <path d="M304 256V104" stroke="url(#grid)" stroke-width="2" stroke-dasharray="4 12" />
+  <path d="M364 256V128" stroke="url(#grid)" stroke-width="2" stroke-dasharray="4 12" />
+  <path d="M64 216h300" stroke="rgba(255,255,255,0.08)" />
+  <path d="M64 176h300" stroke="rgba(255,255,255,0.08)" />
+  <path d="M64 136h300" stroke="rgba(255,255,255,0.08)" />
+  <path d="M64 96h300" stroke="rgba(255,255,255,0.08)" />
+  <path d="M84 236l58-56 56 32 64-96 58 44 46-110" fill="none" stroke="url(#rise)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <g fill="#FF6B35">
+    <circle cx="142" cy="180" r="9" />
+    <circle cx="262" cy="140" r="9" />
+  </g>
+  <g fill="#00ADB5">
+    <circle cx="84" cy="236" r="9" />
+    <circle cx="198" cy="212" r="9" />
+    <circle cx="320" cy="184" r="9" />
+  </g>
+  <circle cx="370" cy="118" r="14" fill="#FFB88A" stroke="#151522" stroke-width="4" />
+  <path d="M86 272h84" stroke="#FF6B35" stroke-width="6" stroke-linecap="round" />
+  <path d="M188 272h84" stroke="#00ADB5" stroke-width="6" stroke-linecap="round" />
+  <path d="M290 272h74" stroke="rgba(255,255,255,0.4)" stroke-width="6" stroke-linecap="round" />
+  <g fill="#FFFFFF" opacity="0.8">
+    <rect x="90" y="52" width="62" height="10" rx="5" />
+    <rect x="160" y="52" width="32" height="10" rx="5" />
+    <rect x="208" y="52" width="92" height="10" rx="5" />
+  </g>
+</svg>
