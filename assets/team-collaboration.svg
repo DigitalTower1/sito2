@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-labelledby="title desc">
+  <title id="title">Team marketing in collaborazione</title>
+  <desc id="desc">Tre persone al lavoro su interfacce digitali con elementi grafici arancioni e teal.</desc>
+  <defs>
+    <linearGradient id="badge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B35" />
+      <stop offset="100%" stop-color="#00ADB5" />
+    </linearGradient>
+    <radialGradient id="ambient" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.9)" />
+      <stop offset="45%" stop-color="rgba(0,173,181,0.4)" />
+      <stop offset="100%" stop-color="rgba(10,10,15,0)" />
+    </radialGradient>
+  </defs>
+  <rect width="420" height="320" fill="none" />
+  <circle cx="210" cy="160" r="150" fill="url(#ambient)" opacity="0.7" />
+  <g stroke="#0F141C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84 230c12-48 54-86 104-92 50-6 102 18 130 60 20 28 24 64 16 92H84v-60z" fill="#12121A" />
+    <path d="M110 138c0-32 26-58 58-58 32 0 58 26 58 58s-26 58-58 58c-32 0-58-26-58-58z" fill="#1E1E2C" />
+    <path d="M214 164c0-30 24-54 54-54s54 24 54 54-24 54-54 54-54-24-54-54z" fill="#1A1A28" />
+    <path d="M66 196c0-26 22-48 48-48s48 22 48 48-22 48-48 48-48-22-48-48z" fill="#161621" />
+  </g>
+  <g fill="#FFFFFF" opacity="0.85">
+    <circle cx="166" cy="132" r="14" fill="#FFB68A" />
+    <circle cx="250" cy="134" r="15" fill="#7DF0F6" />
+    <circle cx="116" cy="188" r="12" fill="#FFD4BF" />
+  </g>
+  <g fill="none" stroke="url(#badge)" stroke-width="6" stroke-linecap="round">
+    <path d="M126 204c30-18 66-24 104-12 38 12 68 40 84 74" />
+    <path d="M92 244h232" opacity="0.6" />
+  </g>
+  <g fill="#0F141C" opacity="0.7">
+    <rect x="138" y="72" width="118" height="26" rx="13" />
+    <rect x="236" y="208" width="96" height="32" rx="16" />
+    <rect x="104" y="232" width="76" height="24" rx="12" />
+  </g>
+  <g fill="#FFFFFF" opacity="0.75">
+    <rect x="150" y="80" width="52" height="10" rx="5" />
+    <rect x="214" y="80" width="18" height="10" rx="5" />
+    <rect x="244" y="216" width="54" height="8" rx="4" />
+    <rect x="244" y="228" width="72" height="8" rx="4" />
+    <rect x="114" y="238" width="44" height="8" rx="4" />
+  </g>
+  <g fill="none" stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="3" stroke-dasharray="6 10">
+    <path d="M140 120c12-22 38-38 66-38s54 16 66 38" />
+    <path d="M126 174c20-10 46-12 68-4 22 8 40 24 48 44" />
+  </g>
+  <circle cx="320" cy="92" r="26" fill="url(#badge)" opacity="0.8" />
+  <path d="M320 80l8 14h-16z" fill="#0A0A0F" />
+</svg>
